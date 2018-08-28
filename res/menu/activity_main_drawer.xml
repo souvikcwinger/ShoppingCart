@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+<item android:title="Categories"></item>
+    <group android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/nav_first_layout"
+            android:icon="@drawable/ic_tablet_android_black_24dp"
+            android:title="Mobile Phones" />
+        <item
+            android:id="@+id/nav_second_layout"
+            android:icon="@drawable/ic_desktop_windows_black_24dp"
+            android:title="TV" />
+
+        <item
+            android:id="@+id/nav_fourth_layout"
+            android:icon="@drawable/ic_restaurant_black_24dp"
+            android:title="KITCHEN APPLIANCES" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_grade_black_24dp"
+                android:title="Rate us" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_call_black_24dp"
+                android:title="Contact us" />
+        </menu>
+    </item>
+
+</menu>
